@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(137, 137, 223);
+}
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color: #ea308e;
+}
+.navbar-nav .nav-link{
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 80px;
+}
+.navbar-dark {
+    background-color: rgb(18,1,46);
+}
+
+.circular-image-container{
+   
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circular-image{
+    
+    display: block;
+}
+
+.name{
+    color: rgb(9, 27, 162);
+}
+.title{
+    color: rgb(55, 9, 207);
+}
+
+.social-links{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
