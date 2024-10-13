@@ -53,10 +53,22 @@ body{
 }
 
 
+.lead{
 
+}
 
+.jumbtron{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+}
 
-
-
-
+.display4{
+    color: blue;
+    font-size: 24px;
+}
+.load{
+    font-size: 18px;
+    color: blue;
+}
 

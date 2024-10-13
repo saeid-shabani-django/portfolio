@@ -1,0 +1,25 @@
+{% extends '_base.html' %}
+{% load static %}
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+
+   <div class="row my-2">
+   {% for exp in experiences %}
+<div class="col-6">
+       <div class="jumbtron jumbtron-fluid mt-2">
+   <h1 class="display4">{{ exp.company_name }}</h1>
+       <p class="lead">{{ exp.position }}</p>
+
+       </div>
+   {% endfor %}
+   </div>
+
+{% endblock %}
+
+
+
+
+
