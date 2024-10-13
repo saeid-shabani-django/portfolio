@@ -1,0 +1,62 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+
+   <div class="row my-2">
+
+   <div class="col-4 text-center my-5 text-dark">
+<h1>stay connected</h1>
+<h3>django_saeid.sh@proton.me</h3>
+       <div class="col-12 text-center mt-3">
+
+
+<div class="col-12 text-center mt-3">
+    <div class="col-12 d-flex justify-content-center align-items-center">
+<a href="https://www.linkedin.com/in/saeid-shabani-98bb8a307/" target="_blank" class="ms-3">
+    <img src="{% static 'images/linkedin.png' %}" alt="linkedin" width="50" height="50" class="social-links">
+</a>
+<a href="https://github.com/saeid-shabani-django?tab=repositories" target="_blank" class="ms-3">
+    <img src="{% static 'images/github.png' %}" alt="github" width="50" height="50" class="social-links">
+</a>
+<a href="https://www.instagram.com/saeidshabani67" target="_blank" class="ms-3">
+    <img src="{% static 'images/instagram.jpg' %}" alt="linkedin" width="50" height="50" class="social-links">
+</a>
+</div>
+
+    </div>
+
+   </div>
+
+   </div>
+              <div class="col-5 offset-1 mt-3">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" >
+
+  </div>
+   <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" >
+
+  </div>
+            <div class="form-group">
+    <label for="phone">Phone no</label>
+    <input type="tel" class="form-control" id="phone" >
+
+            </div>
+             <div class="form-group">
+    <label for="msg">Message</label>
+                 <textarea type="text" class="form-control" id="msg" ></textarea>
+
+  </div>
+  <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+    </div>
+</div>
+{% endblock %}

@@ -130,10 +130,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #static files
 STATIC_URL= 'resume/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-STATICFILES_DIR =[
-    str(BASE_DIR.joinpath('resume/static')),
-]
+# STATICFILES_DIR =[
+#     str(BASE_DIR.joinpath('resume/static')),
+# ]
 
 
 
