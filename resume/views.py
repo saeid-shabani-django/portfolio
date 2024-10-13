@@ -24,7 +24,9 @@ def experiences(request):
     ]
     return render(request,'experience.html',{'experiences':experiences})
 
+def certificates(request):
 
+    return render(request,'certificates.html')
 
 
 
